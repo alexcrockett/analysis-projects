@@ -1,0 +1,29 @@
+# Notes and References
+
+## References
+
+#### To calculate descriptive statistics with Pandas
+https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/
+
+#### Reading a csv and importing data
+https://www.datacamp.com/tutorial/pandas-read-csv
+
+#### Transpose 1D array to column vector
+```python
+# Assuming mean_open and mean_high are already defined
+mean_array = np.array([mean_open, mean_high])
+column_vector = mean_array.reshape(-1, 1)
+print(column_vector)
+```
+
+## Notes
+General note. I'm trying to treat the folder structure a bit like a to-do list. I find this helps me stay focused.
+
+### desc_exp_1.ipynb
+This file is an initial exploration. Goal will be to export to Python and then import specific functions later for analysis.
+
+- Analysis level -> descriptive statistics
+- Descriptives are added to a dictionary such that it is easy to call them later as groups
+- Descriptives also defined as arrays so we can play around later
+- Because values for Volume are so much higher than other values they're excluded until they're needed later
+-
