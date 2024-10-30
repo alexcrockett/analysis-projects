@@ -8,7 +8,9 @@ print(apples)
 # Producing the descriptive statistics
 
 ## Count
-values_count = apples['Open'].count() # Count Open
+def count_values():
+    values_count = apples['Open'].count() # Count Open
+    return values_count
 
 ## Mean ------------------------------------------------------------------------------------------------
 
