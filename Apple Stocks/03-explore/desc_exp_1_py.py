@@ -2,15 +2,14 @@
 #%%
 import numpy as np
 import pandas as pd
-apples = pd.read_csv('/Users/Alex/PycharmProjects/Jupyter_Playground/Apple Stocks/02-data/AppleStockPrices.csv')
+apples = pd.read_csv('/Users/alexa/Documents/git py analysis/Apple Stocks/02-data/AppleStockPrices.csv')
 print(apples)
 #%%
 # Producing the descriptive statistics
 
 ## Count
-def count_values():
-    values_count = apples['Open'].count() # Count Open
-    return values_count
+values_count = apples['Open'].count()  # Count Open
+
 
 ## Mean ------------------------------------------------------------------------------------------------
 
