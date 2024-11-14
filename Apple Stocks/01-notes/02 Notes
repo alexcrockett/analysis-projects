@@ -1,7 +1,24 @@
 
 ## Exploring the data
+The goal is to see if there is a pattern that can be explored with greater validity in a larger and more robust data set.
 
 ### Notes on raw data
+- Only 34 rows of data (not a very big sample)
+- Spans approx. one-month period (as above)
+- All data (except Volume) appears to be in the 32 - 360 range
+- Range data will be interesting to explore 
+  - It's unclear looking at the raw data if there's a trend
+  - Unclear if Open or Close tend to be higher
+  - Maybe try correlating each with High and Low?
+  - Again, look at ranges
+- There are some days that appear closer to a high (e.g. 02/16/2024)
+- Most days seem to fall into a relatively tight range (4 - 6 points)
+
+- Overall, this suggests a certain degree of correlation amongst the scores
+- Things to explore will be direction of price change
+- Relationships between Open and Close
+- Change relative to volume
+- How prices move together
 
 ### Notes on generic descriptive statistics
 
